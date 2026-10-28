@@ -1,0 +1,69 @@
+OurUni — PROJECT CONTEXT
+RNS Institute of Technology (RNSIT)
+
+PROJECT OVERVIEW
+OurUNI is a centralized campus issue-reporting and management web application for RNSIT. It is intended to make it easier for students, teaching staff, and administrative staff to report campus problems, identify where an issue is located, and follow the progress of its resolution.
+
+PROBLEM STATEMENT
+For students and staff at RNSIT, the lack of a centralized campus issue-reporting system affects complaint resolution and campus convenience. We will test a role-based web app with issue tracking, helpline contacts, and a campus map, measuring resolution time and user satisfaction with RNSIT administration.
+
+TARGET USERS
+1. Students
+   - Report campus issues such as water leakage in the IT building, broken taps, damaged facilities, faulty lights, or other campus problems.
+   - Scan QR codes placed at campus locations to identify the relevant building or area and start a report.
+   - View ticket status and access the general campus helpline.
+
+2. Teaching staff
+   - Report issues affecting classrooms, laboratories, teaching equipment, internet connectivity, and other faculty-related needs.
+   - Track complaint progress and use campus location information to identify the affected room or building.
+
+3. Administrative staff (Admin)
+   - Receive, review, categorise, prioritise, and assign reported issues.
+   - Coordinate with the appropriate plumbers, technicians, or other maintenance personnel. Students and teaching staff do not need to contact maintenance personnel directly through the app.
+   - Update complaint statuses and oversee progress until the issue is resolved.
+   - Manage relevant campus help and maintenance contact information.
+
+CORE FEATURES
+- Role-based access and workflows for students, teaching staff, and administrative staff.
+- Issue/ticket creation, including issue category, description, campus location, and optional photo.
+- QR codes at campus locations. Scanning a code should help identify the location and make reporting quicker.
+- Interactive campus map to help users locate buildings and facilities.
+- Complaint tracking with a ticket ID and status, such as submitted, assigned, in progress, and resolved.
+- General campus helpline number.
+- Relevant maintenance contact information available to the admin, who coordinates with the appropriate personnel.
+- An admin dashboard for reviewing, assigning, and monitoring complaints.
+- Complaint history and timestamps to support accountability.
+
+EXAMPLE WORKFLOW
+1. A student notices water leaking in the IT building.
+2. The student scans the QR code at that location or opens OurUNI and selects the location on the campus map.
+3. The student submits a ticket with a description and, if useful, a photo.
+4. The admin reviews the ticket and contacts the appropriate plumber or maintenance team.
+5. The admin or authorised staff updates the ticket as work progresses.
+6. The student can check the status and see when the complaint is marked resolved.
+
+ROLE AND SCOPE CLARIFICATION
+- The three main personas are students, teaching staff, and administrative staff.
+- Plumbers, technicians, and other maintenance workers are not separate personas in the current persona map. The admin is responsible for contacting and coordinating with them.
+- The app should not assume that maintenance workers must use the web app or smartphones.
+- The app should display verified contact details and an accurate general helpline number once RNSIT confirms them.
+- A complaint being marked resolved should reflect the actual status of the work; status updates should be clear and trustworthy.
+
+PROJECT NAME
+Name: OurUNI
+
+DESIGN PRINCIPLES
+- Keep reporting quick and mobile-friendly.
+- Make the interface easy to understand for users with different levels of technical comfort.
+- Use QR codes to reduce the effort needed to identify the issue location.
+- Keep role-specific permissions clear.
+- Make complaint ownership, progress, and status visible.
+- Protect user information and avoid collecting unnecessary personal data.
+- Treat the campus map, QR locations, phone numbers, categories, and administrative workflow as details to verify with RNSIT.
+
+SUCCESS MEASURES TO CONSIDER
+- Time taken to submit a complaint.
+- Time from complaint submission to assignment and resolution.
+- Percentage of complaints with visible status updates.
+- User satisfaction among students and staff.
+- Ease of locating the correct campus building or reporting point.

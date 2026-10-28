@@ -1,0 +1,6 @@
+{
+  "name": "OurUNI - RNSIT Issue Reporting & Facility Desk",
+  "description": "Centralized campus issue-reporting, campus vector map, QR location tagging, and maintenance dispatch portal for RNSIT students, faculty, and administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
